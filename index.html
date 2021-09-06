@@ -5,7 +5,7 @@
 <title>Simple Life by Free Website Templates</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">	
 <!--
 Template 2056 simple life 
 http://www.tooplate.com/view/2056-simple-life
@@ -20,23 +20,6 @@ $(document).ready(function () {
 $.localScroll();
 });
 </script> 
-<style type='text/css'>
-	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #1C6ADE;
-		font-family: "Salesforce Sans", sans-serif;
-	}
-	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #1C6ADE;
-	}
-	@font-face {
-		font-family: 'Salesforce Sans';
-		src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
-		url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
-	}
-</style>
-
-
-	
 </head>
 
 <body>
@@ -227,7 +210,24 @@ $.localScroll();
 		
 		<div class="cleaner"></div>
 	</div>
-	<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+	
+	
+	<style type='text/css'>
+	.embeddedServiceHelpButton .helpButton .uiButton {
+		background-color: #1C6ADE;
+		font-family: "Salesforce Sans", sans-serif;
+	}
+	.embeddedServiceHelpButton .helpButton .uiButton:focus {
+		outline: 1px solid #1C6ADE;
+	}
+	@font-face {
+		font-family: 'Salesforce Sans';
+		src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
+		url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
+	}
+</style>
+
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
@@ -279,6 +279,5 @@ $.localScroll();
 		initESW('https://service.force.com');
 	}
 </script>
-
 </body>
 </html>
